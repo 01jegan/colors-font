@@ -1,0 +1,270 @@
+.container{
+	margin:0 200px;
+	padding:20px;
+	background:skyblue;
+	}
+h1{
+text-align:center;
+background:#ffff006b;
+color:white;	
+}
+.bg-color h2{
+	font-size:16px;
+}
+.digit h2{
+	color:#b8b;/*bb88bb*/
+}
+.digit p{
+	color:#3c3;/*33cc33*/
+}
+.text{
+color:dodgerblue;
+}
+.text h2 {
+  text-align: center;
+}
+
+.text h3 {
+  text-align: left;
+}
+.text h4 {
+  text-align: right;
+}
+.text p {
+  border: 1px solid black;
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+  text-align: justify;
+}
+.last h2{
+	background:dodgerblue;
+	color:white;
+}
+.last p{
+	font-size:20px;
+}
+.last p.a {
+  text-align-last: right;
+}
+
+.last p.b {
+  text-align-last: center;
+}
+
+.last p.c {
+  text-align-last: justify;
+}
+.dir{
+	direction:rtl;
+	unicode-bidi:bidi-override;
+}
+.vertical h2{
+	background:dodgerblue;
+	color:white;
+}
+.vertical span.a {
+  vertical-align: baseline;
+}
+
+.vertical span.b {
+  vertical-align: text-top;
+    font-size:10px;
+}
+
+.vertical span.c {
+  vertical-align: text-bottom;
+  font-size:10px;
+}
+
+.vertical span.d {
+  vertical-align: sub;
+}
+
+.vertical span.e {
+  vertical-align: super;
+}
+.decoration h4 {
+  text-decoration: overline;
+    text-decoration-color: white;
+	  text-decoration-style: double;
+	  text-decoration-thickness:10px;
+}
+
+.decoration h2 {
+  text-decoration: line-through;
+text-decoration-color: white;
+  text-decoration-style: dotted;
+}
+
+.decoration h3 {
+  text-decoration: underline;
+  text-decoration-color: white;
+    text-decoration-style: dashed;
+}
+
+.decoration p{
+  text-decoration: overline underline;
+text-decoration-color: white;
+  text-decoration-style: wavy;
+  text-decoration-thickness:20%;
+}
+.decoration h5 {
+  text-decoration: underline dodgerblue double 5px;
+  font-size:20px;
+}
+.decoration a{
+	text-decoration:none;
+}
+.transform{
+	color:dodgerblue;
+}
+p.uppercase {
+  text-transform: uppercase;
+}
+
+p.lowercase {
+  text-transform: lowercase;
+}
+p.capitalize {
+  text-transform: capitalize;
+}
+.spacing{
+	color:black;
+}
+.spacing p {
+  text-indent: 20%;
+}
+.spacing h2 {
+  letter-spacing: 10px;
+}
+
+.spacing h3 {
+  letter-spacing: -4px;
+}
+p.small {
+  line-height: 0.9;
+  color:black;
+}
+
+p.big {
+  line-height: 6;
+  color:black;
+}
+p.one {
+  word-spacing: 10px;
+color:black;
+}
+
+p.two {
+  word-spacing: -2px;
+	color:black;
+}
+.html p {
+	color:black;
+	padding:20px;
+  white-space: nowrap;
+  /* white-space: wrap; */
+}
+.shadow h2 {
+	color:gray;
+  text-shadow: 2px 2px;
+}
+.shadow h3 {
+  text-shadow: 2px 2px black;
+}
+.shadow .blur{
+	color:white;
+	text-shadow: 2px 2px 5px dodgerblue;
+}
+.shadow .blurness{
+	font-size:20px;
+color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.p1 {
+  font-family: "Times New Roman", Times, serif;
+	color:black;
+}
+
+.p2 {
+  font-family: Arial, Helvetica, sans-serif;
+	color:black;
+}
+
+.p3 {
+  font-family: "Lucida Console", "Courier New", monospace;
+	color:black;
+}
+.websafe p {
+font-family: Tahoma, Verdana, sans-serif;
+}
+.fallback h2{
+	text-align:center;
+	color:black;
+}
+p.normal {
+  font-style: normal;
+}
+
+p.italic {
+  font-style: italic;
+}
+
+p.oblique {
+  font-style: oblique;
+}
+p.normal {
+  font-weight: normal;
+}
+
+p.light {
+  font-weight: lighter;
+}
+
+p.thick {
+  font-weight: bold;
+}
+
+p.thicker {
+  font-weight: 900;
+}
+p.normal {
+  font-variant: normal;
+}
+
+p.small {
+  font-variant: big-caps;
+}
+.size h2 {
+  font-size: 40px;
+}
+
+.size h3 {
+  font-size: 30px;
+}
+
+.size p {
+  font-size: 14px;
+}
+.em-size h2 {
+  font-size: 2.5em;
+}
+
+.em-size h3 {
+  font-size: 1.875em;
+}
+
+.em-size p {
+  font-size: 0.875em;
+}
+.googlefont h2{
+	font-family: 'Poppins', sans-serif;
+}
+.ab {
+  font: 20px Arial, sans-serif;
+}
+
+.ba {
+  font: italic small-caps  bold 12px/30px Georgia, serif;
+}
